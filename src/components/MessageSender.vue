@@ -59,14 +59,16 @@
 import "quill/dist/quill.core.css";
 import "quill/dist/quill.snow.css";
 import "quill/dist/quill.bubble.css";
-import { quillEditor } from "vue-quill-editor";
 import emailjs from "emailjs-com";
 import { htmlToText } from "html-to-text";
 import debounce from "lodash.debounce";
 export default {
   name: "MessageSender",
   components: {
-    quillEditor,
+    quillEditor: () =>
+      import("vue-quill-editor")
+        .then((m) => m.quillEditor)
+        .catch(),
   },
   data() {
     return {
