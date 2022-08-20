@@ -1,0 +1,131 @@
+[
+    {
+        "completed": false,
+        "title": "Walls",
+        "githubLink": "https://github.com/mich-wiecz/walls-game",
+        "imageURL": "walls.png",
+        "projectLink": "https://walls-board-game.herokuapp.com",
+        "features": [
+            "Registration / Login",
+            "Board game invented by me (currently only in single player mode)",
+            "Creating chats, inviting others and real-time messaging"
+        ],
+        "tools": [
+            {
+                "name": "VueJS",
+                "iconURL": "vue.jpg"
+            },
+            {
+                "name": "NuxtJS",
+                "iconURL": "Nuxt.png"
+            },
+            {
+                "name": "Socket.IO",
+                "iconURL": "socket.png"
+            },
+            {
+                "name": "TailwindCSS",
+                "iconURL": "tailwind.png"
+            },
+            {
+                "name": "HTML Canvas",
+                "iconURL": "html-5.png"
+            },
+            {
+                "name": "Inkscape",
+                "iconURL": "inkscape.png"
+            },
+            {
+                "name": "Strapi",
+                "iconURL": "Strapi.svg"
+            }
+        ]
+    },
+    {
+        "completed": true,
+        "title": "Amazon Clone",
+        "guide": "Sonny Sangha",
+        "tutorialLink": "https://www.youtube.com/watch?v=VA-UN_6oNG8&t=1s",
+        "githubLink": "https://github.com/mich-wiecz/Amazon-2.0",
+        "imageURL": "amazon.png",
+        "projectLink": "https://amazon-2-0-adylkzfj5-mich-wiecz.vercel.app",
+        "features": [
+            "Signing up with Google",
+            "Selecting items and managing them in basket",
+            "Checkout with test version of Stripe"
+        ],
+        "tools": [
+            {
+                "name": "VueJS",
+                "iconURL": "vue.jpg"
+            },
+            {
+                "name": "Firebase",
+                "iconURL": "firebase.png"
+            },
+            {
+                "name": "TailwindCSS",
+                "iconURL": "tailwind.png"
+            },
+            {
+                "name": "Stripe",
+                "iconURL": "stripe.svg"
+            }
+        ]
+    },
+    {
+        "completed": true,
+        "title": "memo-Blog",
+        "guide": "John Komarnicki",
+        "tutorialLink": "https://www.youtube.com/watch?v=ISv22NNL-aE",
+        "githubLink": "https://github.com/mich-wiecz/memo-Blog",
+        "imageURL": "memo-blog.png",
+        "projectLink": "https://memo-blog-d1796.web.app/",
+        "features": [
+            "Registration / Login",
+            "Blog posts with placeholder text",
+            "Admin role to add or modify posts directly on the website"
+        ],
+        "tools": [
+            {
+                "name": "VueJS",
+                "iconURL": "vue.jpg"
+            },
+            {
+                "name": "Firebase",
+                "iconURL": "firebase.png"
+            }
+        ]
+    },
+    {
+        "completed": true,
+        "title": "Airbnb Clone",
+        "guide": "Sonny Sangha",
+        "tutorialLink": "https://www.youtube.com/watch?v=BbilqOBOfg8",
+        "githubLink": "https://github.com/mich-wiecz/Airbnb-2.0",
+        "imageURL": "airbnb.png",
+        "projectLink": "https://airbnb-2-0-alpha.vercel.app",
+        "features": [
+            "Calendar & text search",
+            "Finding locations in the map",
+            "Admin role to add or modify posts directly on the website"
+        ],
+        "tools": [
+            {
+                "name": "ReactJS",
+                "iconURL": "react.png"
+            },
+            {
+                "name": "NextJS",
+                "iconURL": "next-js.svg"
+            },
+            {
+                "name": "TailwindCSS",
+                "iconURL": "tailwind.png"
+            },
+            {
+                "name": "Mapbox"
+            }
+        ]
+    }
+]

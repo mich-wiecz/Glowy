@@ -1,0 +1,136 @@
+[
+    [
+        {
+            "name": "React + Redux",
+            "iconURL": "react.png",
+            "rating": 5
+        },
+        {
+            "name": "VueJS + Pinia",
+            "iconURL": "vue.jpg",
+            "rating": 4
+        },
+        {
+            "name": "NextJS",
+            "iconURL": "next-js.svg",
+            "rating": 4
+        },
+        {
+            "name": "NuxtJS",
+            "iconURL": "Nuxt.png",
+            "rating": 4
+        }
+    ],
+    [
+        {
+            "name": "JavaScript",
+            "iconURL": "javascript.png",
+            "rating": 5
+        },
+        {
+            "name": "HTML5",
+            "iconURL": "html-5.png",
+            "rating": 5
+        },
+        {
+            "name": "TypeScript",
+            "iconURL": "typescript.png",
+            "rating": 4
+        },
+        {
+            "name": "Lodash",
+            "iconURL": "Lodash.png",
+            "rating": 3
+        },
+        {
+            "name": "Jest",
+            "iconURL": "jest.png",
+            "rating": 3
+        }
+    ],
+    [
+        {
+            "name": "RegEx",
+            "iconURL": "regex.png",
+            "rating": 4
+        },
+        {
+            "name": "SocketIO",
+            "iconURL": "socket.png",
+            "rating": 3
+        },
+        {
+            "name": "Git + GitHub",
+            "iconURL": "github.png",
+            "rating": 3
+        }
+    ],
+    [
+        {
+            "name": "NodeJS",
+            "iconURL": "nodejs.png",
+            "rating": 3
+        },
+        {
+            "name": "ExpressJS",
+            "iconURL": "express.png",
+            "rating": 3
+        },
+        {
+            "name": "PHP",
+            "iconURL": "php.png",
+            "rating": 2
+        }
+    ],
+    [
+        {
+            "name": "MongoDB",
+            "iconURL": "mongodb.png",
+            "rating": 2
+        },
+        {
+            "name": "MySQL",
+            "iconURL": "mysql.svg",
+            "rating": 4
+        },
+        {
+            "name": "Strapi",
+            "iconURL": "Strapi.svg",
+            "rating": 4
+        },
+        {
+            "name": "Firebase",
+            "iconURL": "firebase.png",
+            "rating": 2
+        }
+    ],
+    [
+        {
+            "name": "Figma",
+            "iconURL": "figma.png",
+            "rating": 2
+        },
+        {
+            "name": "Inkscape",
+            "iconURL": "inkscape.png",
+            "rating": 3
+        }
+    ],
+    [
+        {
+            "name": "Tailwind",
+            "iconURL": "tailwind.png",
+            "rating": 4
+        },
+        {
+            "name": "CSS3 + SCSS",
+            "iconURL": "css.png",
+            "rating": 4
+        },
+        {
+            "name": "Bootstrap",
+            "iconURL": "Bootstrap.svg",
+            "rating": 4
+        }
+    ]
+]
