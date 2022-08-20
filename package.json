@@ -7,7 +7,6 @@
     "build": "gridsome build"
   },
   "dependencies": {
-    "@vueuse/core": "^9.1.0",
     "emailjs-com": "^3.2.0",
     "gridsome": "^0.7.0",
     "html-to-text": "^8.2.1",

@@ -10,7 +10,9 @@
           placeholder="subject of the message"
         />
       </div>
-      <quillEditor class="editor" v-model="message" />
+      <ClientOnly>
+        <quillEditor class="editor" v-model="message" />
+      </ClientOnly>
       <div class="editor__end">
         <div
           v-for="(medium, index) in Object.values(contactMediums)"
@@ -173,15 +175,6 @@ export default {
       } catch (error) {
         console.error(error);
       }
-    },
-    getStorageSaver(id, isString = true) {
-      return debounce((value) => {
-        try {
-          sessionStorage.setItem(id, isString ? value : JSON.stringify(value));
-        } catch (error) {
-          console.error(error);
-        }
-      }, 1000);
     },
   },
   watch: {
